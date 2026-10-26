@@ -23,7 +23,7 @@ def desconto_vip():
     return DescontoVip()
 
 def test_desconto_vip_100(desconto_vip):
-    assert desconto_vip.calcuar(100) == 20
+    assert desconto_vip.calcular(100) == 20
 
 def test_desconto_vip_200(desconto_vip):
     assert desconto_vip.calcular(200) == 40
